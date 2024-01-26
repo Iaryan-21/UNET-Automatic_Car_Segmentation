@@ -65,7 +65,6 @@ def test():
     preds = model(x)
     print(preds.shape)
     print(x.shape)
-    # Adjust this assert as per your expected output size
     assert preds.shape == x.shape
 
 if __name__ == "__main__":
